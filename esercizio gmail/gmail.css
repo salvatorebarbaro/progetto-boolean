@@ -1,0 +1,85 @@
+body{
+    background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+    color: white;
+
+
+
+}
+
+
+
+.logo
+{
+    width: 100px;  /*usato per regolare grandezza del logo*/
+    
+
+}
+
+.testologo
+{
+    font-size: 20px; /*grandezza carattere accanto al logo*/
+    display: inline-block;
+}
+
+.contenitore
+{
+    
+    width: 800px;
+    margin:auto; /*imposta automaticamente il margine da avere */
+
+
+}
+
+#contatore
+{
+    color: green;
+    background-color: orange;
+    border-radius:50% ;
+    padding:2px;
+
+}
+.riga-sinistra
+{
+
+    display: inline-block;
+    width: 30%;
+    
+
+}
+.riga-destra
+{
+
+    display: inline-block;
+    width: 68%;
+
+}
+.riga{
+    background-color: gray;
+}
+footer{
+    text-align: center;
+}
+
+#logo{font-size: 30px;}
+
+.nonletta{
+    background-color: lightgrey;
+}
+
+.letta{
+    background-color:white
+    ;
+}
+
+.riga
+{
+    color: black;
+}
+
+.text{
+    color: black;
+}
+
+.text-nell-email{
+    color: gray;
+}

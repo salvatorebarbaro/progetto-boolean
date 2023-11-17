@@ -1,0 +1,17 @@
+header
+{
+    text-align: center;
+    background-color: gray;
+    border: 3px solid yellow;
+}
+
+main > h2
+{
+    color: goldenrod;
+}
+
+main
+{
+padding: 5px;
+}
+

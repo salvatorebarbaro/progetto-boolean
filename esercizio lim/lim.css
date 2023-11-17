@@ -1,0 +1,88 @@
+body
+{
+    background-image:url(background.jpg) ;  /*comando usato per assegnare come sfondo al nostro body l'immagine assegnata*/
+    background-size: cover;  /*comando usato per far adattare i'immagine alla nostra pagina , visto su internet*/
+    color: white;
+}
+
+.logo
+{
+    width: 300px;  /*grandezza del logo*/
+    display: block;/*usato per impostare il logo come elemento block*/
+    margin-left: auto;/*margine sinistro*/
+    margin-right: auto;/*margine destro*/      
+}
+
+.contenitore
+{
+    
+    border-radius: 10px;/*usato per squadrare gli angoli*/
+    background-color: rgba(0, 0, 0, 0.418);/*colore dello sfondo */
+    width: 1000px;  /*grandezza del contenitore che abbiamo usato*/
+    margin: auto  /*comando usato per sposatre al centro il nostro contenitore*/
+    
+}
+
+
+nav
+{
+    
+    color: rgb(45, 182, 45);/*colore dato alla scritta*/
+    font-size: 27px;/*grandezza carattere*/
+    text-align: center;/*posizione*/
+}
+
+nav div
+{
+    
+    background-color: rgb(19, 194, 19);/*colore sfondo dei pulsanti*/
+    margin-left: 75px;/*margine sinistro*/
+    margin-right: 75px;/*margine destro*/
+
+}
+.intestazione
+{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+
+}
+main
+{
+    margin-left: 75px;/*margine sinistro*/
+    margin-right: 75px;/*margine destro*/
+    text-align: left;/*allinea testo a sinistra*/
+
+}
+#caratteri_sottostanti
+{
+    font-size: 18px;
+}
+.linea_carica1
+{
+    background-color: rgb(233, 166, 41);/*colore del box*/
+    height: 30px;
+    width: 40%;/*grandezza del box*/
+    border-radius: 5px;/*comando per stondare gli angoli*/
+}
+.linea_carica2
+{
+    background-color: greenyellow;/*colore del box*/
+    height: 30px;
+    width: 65%;/*grandezza del box*/
+    border-radius: 5px;/*comando per stondare gli angoli*/
+}
+.linea_carica3
+{
+    background-color: red;/*colore del box*/
+    height: 30px;
+    width: 15%;/*grandezza del box*/
+    border-radius: 5px;/*comando per stondare gli angoli*/
+}
+
+/*#info-monopattino
+{
+    font-size: 40px;/*comando usato per impostare la grandezza*/
+
+
